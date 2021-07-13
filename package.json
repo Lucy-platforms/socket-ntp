@@ -1,0 +1,56 @@
+{
+  "_args": [
+    [
+      "git+https://github.com/david1542/socket-ntp.git",
+      "C:\\Projects\\lucy_platforms\\vb-trading-service"
+    ]
+  ],
+  "_from": "git+https://github.com/david1542/socket-ntp.git",
+  "_id": "socket-ntp@git+https://github.com/david1542/socket-ntp.git#269330d6231ebe259de6146264c0ab25e58fe66a",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/socket-ntp",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git+https://github.com/david1542/socket-ntp.git",
+    "rawSpec": "git+https://github.com/david1542/socket-ntp.git",
+    "saveSpec": "git+https://github.com/david1542/socket-ntp.git",
+    "fetchSpec": "https://github.com/david1542/socket-ntp.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/david1542/socket-ntp.git#269330d6231ebe259de6146264c0ab25e58fe66a",
+  "_spec": "git+https://github.com/david1542/socket-ntp.git",
+  "_where": "C:\\Projects\\lucy_platforms\\vb-trading-service",
+  "author": {
+    "name": "Calvin French-Owen",
+    "email": "calvin@calv.info"
+  },
+  "bugs": {
+    "url": "https://github.com/calvinfo/socket-ntp/issues"
+  },
+  "description": "NTP syncing algorithm between client and server using socket.io",
+  "devDependencies": {
+    "express": "3.0.2",
+    "socket.io": "*"
+  },
+  "homepage": "https://github.com/calvinfo/socket-ntp#readme",
+  "keywords": [
+    "ntp",
+    "socket",
+    "socket.io"
+  ],
+  "main": "lib/ntp",
+  "name": "socket-ntp",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/calvinfo/socket-ntp.git"
+  },
+  "scripts": {
+    "start": "node example/app.js"
+  },
+  "version": "0.1.0"
+}
